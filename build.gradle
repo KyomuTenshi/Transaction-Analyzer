@@ -32,6 +32,10 @@ application {
     mainClass = 'com.piperitegames.finance.Application'
 }
 
+tasks.named('run') {
+    standardInput = System.in
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }
