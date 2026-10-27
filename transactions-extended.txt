@@ -1,0 +1,21 @@
+# Примеры из ТЗ
+10001,2,2020-01-01T12:00:00,Food,-25.50,Regular,
+10001,4,2020-01-15T08:30:00,Transport,-15.00,Regular,
+10001,6,2020-03-22T19:00:00,Entertainment,-45.00,ForeignCurrency,85
+10002,8,2020-04-15T14:15:00,Salary,5000.00,Taxable,0.20
+10002,10,2021-05-10T11:00:00,Salary,100.00,Taxable,0.10
+10003,12,2021-05-18T16:20:00,Entertainment,-75.99,ForeignCurrency,85
+10003,14,2022-03-05T07:45:00,Food,-12.50,Regular,
+
+# Повторяющиеся транзакции
+10001,16,2020-03-22T19:00:00,Subscription,-9.99,Recurrent,monthly;7
+10002,18,2015-12-31T10:00:00,Insurance,-120.00,Recurrent,yearly;10
+10003,20,2024-05-01T08:00:00,Coffee,-3.50,Recurrent,daily;30
+
+# Транзакции с комментариями
+10003,22,2023-06-01T09:00:00,Books,-30.00,Commentable,Bought a book;Gift for Ekatherina
+10001,24,2023-07-15T18:30:00,Leisure,-60.00,Commentable,Theater tickets;HelloWorld
+10002,26,2024-01-10T12:00:00,Food,-8.40,Commentable,Lunch, with colleagues
+
+# Транзакция со счётом, которого нет в accounts.txt
+99999,28,2024-02-14T20:00:00,Gifts,-50.00,Regular,
