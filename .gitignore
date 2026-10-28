@@ -44,3 +44,6 @@ bin/
 
 ### App output ###
 analytics.json
+
+### IntelliJ IDEA: local project settings ###
+.idea/
